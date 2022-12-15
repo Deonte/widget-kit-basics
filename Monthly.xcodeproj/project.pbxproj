@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD2DBCB8294AD3BC00217D6E /* MonthConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2DBCB6294AD19B00217D6E /* MonthConfig.swift */; };
+		FD2DBCB9294AD3C200217D6E /* MonthConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2DBCB6294AD19B00217D6E /* MonthConfig.swift */; };
 		FDEDE7AB29498E4000E6972D /* MonthlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEDE7AA29498E4000E6972D /* MonthlyApp.swift */; };
 		FDEDE7AD29498E4000E6972D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEDE7AC29498E4000E6972D /* ContentView.swift */; };
 		FDEDE7AF29498E4100E6972D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDEDE7AE29498E4100E6972D /* Assets.xcassets */; };
@@ -44,6 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FD2DBCB6294AD19B00217D6E /* MonthConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthConfig.swift; sourceTree = "<group>"; };
 		FDEDE7A729498E4000E6972D /* Monthly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monthly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDEDE7AA29498E4000E6972D /* MonthlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyApp.swift; sourceTree = "<group>"; };
 		FDEDE7AC29498E4000E6972D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -130,6 +133,7 @@
 			children = (
 				FDEDE7C329498E8400E6972D /* MonthlyWidgetBundle.swift */,
 				FDEDE7C529498E8400E6972D /* MonthlyWidget.swift */,
+				FD2DBCB6294AD19B00217D6E /* MonthConfig.swift */,
 				FDEDE7C729498E8600E6972D /* Assets.xcassets */,
 				FDEDE7C929498E8600E6972D /* Info.plist */,
 			);
@@ -238,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDEDE7AD29498E4000E6972D /* ContentView.swift in Sources */,
+				FD2DBCB9294AD3C200217D6E /* MonthConfig.swift in Sources */,
 				FDEDE7AB29498E4000E6972D /* MonthlyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDEDE7C429498E8400E6972D /* MonthlyWidgetBundle.swift in Sources */,
+				FD2DBCB8294AD3BC00217D6E /* MonthConfig.swift in Sources */,
 				FDEDE7C629498E8400E6972D /* MonthlyWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
